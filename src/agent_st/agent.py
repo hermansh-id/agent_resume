@@ -134,6 +134,7 @@ def skill_analyze(query: str, history: str) -> str:
     return result["messages"][-1].text
 
 lf_supervisor = lf.get_prompt("supervisor_agent").get_langchain_prompt()
+# supervisor
 supervisor_agent = create_agent(
     model=model,
     tools=[search_resume, search_resume_skill],
