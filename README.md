@@ -1,4 +1,18 @@
+# AGENT HR
 
+## Installation
+
+...
+`poetry install`
+
+## Running Agent
+
+`poetry run streamlit src/agent_st/simulation.py`
+
+## Flow
+
+...
+![Flow diagram agent](flow.png)
 
 ## Contoh query
 
